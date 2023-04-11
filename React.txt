@@ -9,7 +9,7 @@ manifest.json - Manifest fayli bir JSON faylidir. Bu fayl, browser'a web uygulam
 
 @@@@@@ src papkasi nədir : @@@@@
 
-index.js - html faylina rootla birlesdirilen hisse. App.js komponentinen gelen melumarlat oturulur.
+index.js - html faylina rootla birlesdirilen hisse. App.js komponentinen gelen melumatlar oturulur.
 App.js - JSX komponentidir.
 index.css = css faylidir.
 
