@@ -1,0 +1,31 @@
+@@@@@@  node_modules papkasi nədir : @@@@@
+npx (node module excute) node paketi icra et.
+npx komandasi ile gələn default node modullardir.
+
+@@@@@@ public papkasi nədir : @@@@@
+
+index.html - fayli adi html faylidir, bura lazim olan link və scriptlər yazilir.
+manifest.json - Manifest fayli bir JSON faylidir. Bu fayl, browser'a web uygulamamız haqqında məlumat verir və istifadə etdiyimiz cihaza yükləndikdən sonra tətbiqin necə davranacağını təyin edir.
+
+@@@@@@ src papkasi nədir : @@@@@
+
+index.js - html faylina rootla birlesdirilen hisse. App.js komponentinen gelen melumarlat oturulur.
+App.js - JSX komponentidir.
+index.css = css faylidir.
+
+
+@@@@@ .gitignore fayli : @@@@@
+
+githuba getmeyecek olan fayllarin adlari qeyd olunur. 
+
+
+@@@@@  package.json : @@@@@
+
+node modula yuklenen modullarin adlarina baxmaq olur.
+
+
+
+@@@@@  Build papkasi yaratmaq : @@@@@
+
+npm run build (servere atmaq ucun yaranan papka)
+

@@ -1,0 +1,15 @@
+1-ci addim :
+
+npm i sass-loader
+
+
+2-ci addim :
+
+npm i sass
+npm install -g sass
+npm install --save-dev sass
+
+
+3-cu addim :
+
+npm start

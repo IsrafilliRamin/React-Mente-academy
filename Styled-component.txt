@@ -1,0 +1,34 @@
+1-ci addim :
+
+npm i styled-components
+
+2-ci addim :
+
+styled-component.js fayli yaratmaq src de.
+
+3-cu addim styled-component.js faylina inport etmek ve kodalri yazmaq :
+
+import styled from 'styled-components';
+
+export const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+
+export const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
+4-cu addim istenilen jsx de cagirmaq :
+
+import Wrapper,Title from "styled-component.js"
+
+<Wrapper>
+  <Title>Hello World, this is my first styled component!</Title>
+</Wrapper>
+
+
+
